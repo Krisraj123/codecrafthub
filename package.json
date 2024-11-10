@@ -1,0 +1,20 @@
+{
+  "name": "personalised_learning",
+  "version": "1.0.0",
+  "description": "User service for personalised learning app",
+  "main": "app.js",
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.22"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
